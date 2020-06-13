@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-color: rgb(210, 251, 255);
+    font-family: cursive;
+}
+header{
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+}
+#cabecalho{
+    position: relative;
+    margin: 10px;
+    left: 50%;    
+    width: 650px;
+    height: 150px;
+    margin-left: -300px;
+}
+#cabecalho img{
+    height: 150px;
+    width: 110px;
+    float: left;
+    margin-right: 10px;
+}
+#cabecalho h1{
+    font-size: 60px;
+    margin: 0;
+    background: -webkit-linear-gradient(right, rgb(47, 25, 44), rgb(85, 16, 195));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 150px;
+}
+#menu-lateral{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(30, 153, 96);
+}
+#funcoes{
+    display: grid;  
+}
+#funcoes button{
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+    font-family: cursive;
+}
+#funcoes button:hover{
+    background-color: rgb(6, 123, 200);
+}
+#item-base{
+    position: relative;
+    left: 50%;
+    top: 50px;
+    margin-left: -350px;
+    margin-bottom: 30px;
+    width: 700px;
+    height: 200px;
+    background-color: rgba(100, 169, 172, 0.692);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(128, 209, 196);
+}
+.item-imagem{
+    margin: 10px;
+}
+.item-imagem, .imagem-midia{
+    width: 122px;
+    height: 175px;
+}
+.item-titulo{
+    position: relative;
+    top: -185px;
+    text-align: center;
+    font-size:35px;
+}
+.item-genero{
+    position: relative;
+    top: -160px;
+    left: 170px;
+    font-size: 28px;
+}
+.item-ano{
+    position: relative;
+    top: -130px;
+    left: 170px;
+    font-size: 28px;
+}
+.item-avaliacao{
+    position: relative;
+    top: -168px;
+    left: 500px;
+    font-size: 28px;
+}
+.item-status{
+    position: relative;
+    top: -370px;
+    left: 83%;
+    font-size: 22px;
+    color: rgb(172, 16, 16);
+}
+.item-hidden{
+    display: none;
+}
+.item-show{
+    display: block;
+}
